@@ -1,0 +1,65 @@
+@model List<Arhitektura.Models.Aranzman>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<style>
+    h2 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .card {
+        margin-bottom: 20px;
+    }
+    
+    .card-img-top {
+        height: 250px;
+    }
+</style>
+
+<h2>Aranzmani</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <a asp-controller="Aranzman" asp-action="Create" class="btn btn-success">Dodaj aranzman</a>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-md-12">
+        @foreach (var aranzman in Model)
+        {
+            <div class="card">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        @if (!string.IsNullOrEmpty(aranzman.Slika))
+                        {
+                            <img src="@aranzman.Slika" class="card-img-top" alt="Slika destinacije">
+                        }
+                        else
+                        {
+                            <img src="putanja-do-default-slike.jpg" class="card-img-top" alt="Slika destinacije">
+                        }
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">@aranzman.Opis</h5>
+                            <p class="card-text">
+                                Ukupna cena: @aranzman.UkupnaCena RSD<br>
+                                Status: @(aranzman.Placeno ? "Rezervisan" : "Dostupan")<br>
+                                Datum realizacije: @aranzman.DatumRealizacije.ToString("dd.MM.yyyy").<br>
+                                Hotel: @aranzman.Hotel.Naziv<br>
+                                Turistička agencija @aranzman.TuristickaAgencija.Naziv<br>
+                            </p>
+                            <a asp-controller="Aranzman" asp-action="Edit" asp-route-id="@aranzman.Id" class="btn btn-success">Izmeni</a>
+                            <a asp-controller="Aranzman" asp-action="Delete" asp-route-id="@aranzman.Id" class="btn btn-secondary">Obriši</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>

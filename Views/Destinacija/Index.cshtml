@@ -1,0 +1,63 @@
+@model List<Arhitektura.Models.Destinacija>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<style>
+    h2 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .card {
+        margin-bottom: 20px;
+    }
+    
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+    }
+</style>
+
+<h2>Destinacije</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <a asp-controller="Destinacija" asp-action="Create" class="btn btn-success">Dodaj destinaciju</a>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-md-12">
+        @foreach (var destinacija in Model)
+        {
+            <div class="card">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        @if (!string.IsNullOrEmpty(destinacija.Slika))
+                        {
+                            <img src="@destinacija.Slika" class="card-img-top" alt="Slika destinacije">
+                        }
+                        else
+                        {
+                            <img src="putanja-do-default-slike.jpg" class="card-img-top" alt="Slika destinacije">
+                        }
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">@destinacija.Mesto</h5>
+                            <p class="card-text">
+                                Drzava: @destinacija.Drzava<br>
+                                Opis: @destinacija.Opis<br>
+                            </p>
+                            <a asp-controller="Destinacija" asp-action="Edit" asp-route-id="@destinacija.Id" class="btn btn-success">Izmeni</a>
+                            <a asp-controller="Destinacija" asp-action="Delete" asp-route-id="@destinacija.Id" class="btn btn-secondary">Obriši</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>

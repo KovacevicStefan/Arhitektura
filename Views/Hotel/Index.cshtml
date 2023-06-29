@@ -1,0 +1,79 @@
+@model List<Arhitektura.Models.Hotel>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<style>
+    h2 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .card {
+        margin-bottom: 20px;
+    }
+    
+    .card-img-top {
+        height: 210px;
+        object-fit: fill;
+    }
+    
+    .stars {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+</style>
+
+<h2>Hoteli</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <a asp-controller="Hotel" asp-action="Create" class="btn btn-success">Dodaj hotel</a>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-md-12">
+        @foreach (var hotel in Model)
+        {
+            <div class="card">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        @if (!string.IsNullOrEmpty(hotel.Slika))
+                        {
+                            <img src="@hotel.Slika" class="card-img-top" alt="Slika hotela">
+                        }
+                        else
+                        {
+                            <img src="putanja-do-default-slike.jpg" class="card-img-top" alt="Slika hotela">
+                        }
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">@hotel.Naziv</h5>
+                            <p class="card-text">
+                                <div class="stars">
+                                    @for (int i = 1; i <= 5; i++)
+                                    {
+                                        if (i <= hotel.BrojZvezdica)
+                                        {
+                                            <img src="@($"/images/stars/star.png")" alt="Zvezdica"  width="20" height="18">
+                                        }
+                                    }
+                                </div>
+                                <br>
+                                Opis: @hotel.Opis<br>
+                                Destinacija: @hotel.Destinacija.Mesto<br>
+                            </p>
+                            <a asp-controller="Hotel" asp-action="Edit" asp-route-id="@hotel.Id" class="btn btn-success">Izmeni</a>
+                            <a asp-controller="Hotel" asp-action="Delete" asp-route-id="@hotel.Id" class="btn btn-secondary">Obriši</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
