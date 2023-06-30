@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "6499db2dee0a164bf4819955"
+  },
+  "mesto": "Pariz",
+  "drzava": "Francuska",
+  "opis": "Grad svetlosti i ljubavi",
+  "slika": "https://images.adsttc.com/media/images/5d44/14fa/284d/d1fd/3a00/003d/newsletter/eiffel-tower-in-paris-151-medium.jpg?1564742900"
+},
+{
+  "_id": {
+    "$oid": "6499db2dee0a164bf4819956"
+  },
+  "mesto": "Njujork",
+  "drzava": "SAD",
+  "opis": "Grad koji nikad ne spava",
+  "slika": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1356405588/image_1356405588.jpg?io=getty-c-w750"
+},
+{
+  "_id": {
+    "$oid": "6499db2dee0a164bf4819957"
+  },
+  "mesto": "Tokio",
+  "drzava": "Japan",
+  "opis": "Grad moderne tehnologije",
+  "slika": "https://shorthand.northstartravelgroup.com/sh/deUhMUNdRGVecxel/assets/Q8COoGi1pp/mv_rainbow-bridge_night1_mg_01890b-750x500.jpg"
+},
+{
+  "_id": {
+    "$oid": "6499db2dee0a164bf4819958"
+  },
+  "mesto": "Rio de Zaneiro",
+  "drzava": "Brazil",
+  "opis": "Grad karnevala",
+  "slika": "https://www.universal-traveller.com/wp-content/uploads/2022/08/brasilia-to-rio-de-janeiro1-750x500.jpg.webp"
+},
+{
+  "_id": {
+    "$oid": "6499db2dee0a164bf4819959"
+  },
+  "mesto": "Sidnej",
+  "drzava": "Australija",
+  "opis": "Grad Operne kuce",
+  "slika": "https://i0.wp.com/content.firstnational.com.au/wp-content/uploads/Featured-10.jpg?fit=750%2C500&ssl=1"
+},
+{
+  "_id": {
+    "$oid": "6499db2dee0a164bf481995a"
+  },
+  "mesto": "Budimpešta",
+  "drzava": "Madjarska",
+  "opis": "Grad mostova",
+  "slika": "https://www.universal-traveller.com/wp-content/uploads/2018/07/budapest-points-of-interest-Buda-Castle-750x500.jpg.webp"
+},
+{
+  "_id": {
+    "$oid": "6499db2dee0a164bf481995b"
+  },
+  "mesto": "Atina",
+  "drzava": "Grcka",
+  "opis": "Grad anticke civilizacije",
+  "slika": "https://res.klook.com/image/upload/c_fill,w_750,h_500/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/uhhmlzixzeoa020y9qsg.jpg"
+},
+{
+  "_id": {
+    "$oid": "6499db2dee0a164bf481995c"
+  },
+  "mesto": "Seul",
+  "drzava": "Juzna Koreja",
+  "opis": "Grad modernih zgrada i tradicije",
+  "slika": "https://images.adsttc.com/media/images/58e5/1944/e58e/ceb8/1100/0338/newsletter/Overall3_LotteWorldTower_(c)Lotte_Group.jpg?1491409215"
+},
+{
+  "_id": {
+    "$oid": "6499db2dee0a164bf481995d"
+  },
+  "mesto": "Zagreb",
+  "drzava": "Hrvatska",
+  "opis": "Grad muzeja i katedrala",
+  "slika": "https://lh3.googleusercontent.com/eRxMdTHgnucM9dVELJOT0LSCu4-FSNmuL6M-0UJuv436QyWPq5ptZHtH1urFC7GsnFtDHiEYNeu3Lcqyn1nucQYFWgNVdGdr_08=s750"
+},
+{
+  "_id": {
+    "$oid": "6499db2dee0a164bf481995e"
+  },
+  "mesto": "Dubrovnik",
+  "drzava": "Hrvatska",
+  "opis": "Grad zidina i mediteranske arhitekture",
+  "slika": "https://www.swedishnomad.com/wp-content/images/2016/05/Att-g%C3%B6ra-i-Dubrovnik.jpg"
+}]

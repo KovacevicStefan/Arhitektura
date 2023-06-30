@@ -1,0 +1,170 @@
+[{
+  "_id": {
+    "$oid": "6499ed493367a63366005638"
+  },
+  "naziv": "Hotel Cezar",
+  "brojZvezdica": 4,
+  "opis": "elegantan i moderan hotel",
+  "destinacija": {
+    "_id": {
+      "$oid": "6499db2dee0a164bf4819956"
+    },
+    "mesto": "Njujork",
+    "drzava": "SAD",
+    "opis": "Grad koji nikad ne spava"
+  },
+  "slika": "https://www.aecinfo.com/upscale-gfrc-at-caesar-s-palace-on-the-vegas-strip-124720/news-files/Caesar's-Palace.jpg"
+},
+{
+  "_id": {
+    "$oid": "6499ed493367a63366005639"
+  },
+  "naziv": "Hotel Sunny",
+  "brojZvezdica": 3,
+  "opis": "hotel sa bazenom i pogledom na more",
+  "destinacija": {
+    "_id": {
+      "$oid": "6499db2dee0a164bf4819959"
+    },
+    "mesto": "Sidnej",
+    "drzava": "Australija",
+    "opis": "Grad Operne kuce"
+  },
+  "slika": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVjWKd81xjtwUcu2Dcbk-x153c40MKPZXNbQ&usqp=CAU"
+},
+{
+  "_id": {
+    "$oid": "6499ed493367a6336600563a"
+  },
+  "naziv": "Hotel Plaza",
+  "brojZvezdica": 5,
+  "opis": "ekskluzivni hotel u centru grada",
+  "destinacija": {
+    "_id": {
+      "$oid": "6499db2dee0a164bf481995b"
+    },
+    "mesto": "Atina",
+    "drzava": "Grcka",
+    "opis": "Grad anticke civilizacije"
+  },
+  "slika": "https://www.ticati.com/img/hotel/12884310s.jpg"
+},
+{
+  "_id": {
+    "$oid": "6499ed493367a6336600563b"
+  },
+  "naziv": "Grand Hotel",
+  "brojZvezdica": 4,
+  "opis": "luksuzan hotel sa spa centrom",
+  "destinacija": {
+    "_id": {
+      "$oid": "6499db2dee0a164bf4819958"
+    },
+    "mesto": "Rio de Zaneiro",
+    "drzava": "Brazil",
+    "opis": "Grad karnevala"
+  },
+  "slika": "https://historichotelsofeurope.com/wp-content/uploads/2022/08/italy-grand-hotel-et-de-milan-video.jpg"
+},
+{
+  "_id": {
+    "$oid": "6499ed493367a6336600563c"
+  },
+  "naziv": "Hotel Savoy",
+  "brojZvezdica": 5,
+  "opis": "hotel sa odlicnim pogledom na grad",
+  "destinacija": {
+    "_id": {
+      "$oid": "6499db2dee0a164bf4819957"
+    },
+    "mesto": "Tokio",
+    "drzava": "Japan",
+    "opis": "Grad moderne tehnologije"
+  },
+  "slika": "https://res.klook.com/klook-hotel/image/upload/fl_lossy.progressive,c_fill,w_750,q_85/s5hb/giata/bigger/12/124982/124982a_hb_a_003.webp"
+},
+{
+  "_id": {
+    "$oid": "6499ed493367a6336600563d"
+  },
+  "naziv": "Hotel Serenity",
+  "brojZvezdica": 3,
+  "opis": "hotel za odmor i relaksaciju",
+  "destinacija": {
+    "_id": {
+      "$oid": "6499db2dee0a164bf4819959"
+    },
+    "mesto": "Sidnej",
+    "drzava": "Australija",
+    "opis": "Grad Operne kuce"
+  },
+  "slika": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87412369.jpg?k=ed248078ca03f5c5c8d073495eb068983a3269a862d6a3039ff5db1d97832074&o=&hp=1"
+},
+{
+  "_id": {
+    "$oid": "6499ed493367a6336600563e"
+  },
+  "naziv": "Hotel Sapphire",
+  "brojZvezdica": 5,
+  "opis": "ekskluzivni hotel u turistickom naselju",
+  "destinacija": {
+    "_id": {
+      "$oid": "6499db2dee0a164bf481995c"
+    },
+    "mesto": "Seul",
+    "drzava": "Juzna Koreja",
+    "opis": "Grad modernih zgrada i tradicionalne kulture"
+  },
+  "slika": "https://www.ticati.com/img/hotel/2387538s.jpg"
+},
+{
+  "_id": {
+    "$oid": "6499ed493367a6336600563f"
+  },
+  "naziv": "Hotel Paradise",
+  "brojZvezdica": 4,
+  "opis": "hotel sa velikim brojem sadrzaja za decu",
+  "destinacija": {
+    "_id": {
+      "$oid": "6499db2dee0a164bf481995a"
+    },
+    "mesto": "Budimpešta",
+    "drzava": "Madjarska",
+    "opis": "Grad mostova"
+  },
+  "slika": "https://res.klook.com/klook-hotel/image/upload/fl_lossy.progressive,c_fill,w_750,q_85/travelapi/58000000/57440000/57438300/57438284/fd78455f_z.webp"
+},
+{
+  "_id": {
+    "$oid": "6499ed493367a63366005640"
+  },
+  "naziv": "Hotel Classic",
+  "brojZvezdica": 3,
+  "opis": "hotel sa tradicionalnim dekorom",
+  "destinacija": {
+    "_id": {
+      "$oid": "6499db2dee0a164bf481995e"
+    },
+    "mesto": "Dubrovnik",
+    "drzava": "Hrvatska",
+    "opis": "Grad zidina i mediteranske arhitekture"
+  },
+  "slika": "https://res.klook.com/image/upload/fl_lossy.progressive,c_fill,w_750,q_85/v1676339343/hotel/wskcueczxav4wqhisrpf.webp"
+},
+{
+  "_id": {
+    "$oid": "6499ed493367a63366005641"
+  },
+  "naziv": "Hotel Premier",
+  "brojZvezdica": 4,
+  "opis": "hotel sa modernim dizajnom",
+  "destinacija": {
+    "_id": {
+      "$oid": "6499db2dee0a164bf4819955"
+    },
+    "mesto": "Pariz",
+    "drzava": "Francuska",
+    "opis": "Grad svetlosti i ljubavi"
+  },
+  "slika": "https://www.ticati.com/img/hotel/10725563s.jpg"
+}]

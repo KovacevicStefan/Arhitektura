@@ -1,0 +1,348 @@
+[{
+  "_id": {
+    "$oid": "649afaa64e7f261d523082a2"
+  },
+  "ukupnaCena": 28000,
+  "placeno": false,
+  "datumRealizacije": "2023-07-19",
+  "hotel": {
+    "_id": {
+      "$oid": "6499ed493367a6336600563f"
+    },
+    "naziv": "Hotel Paradise",
+    "brojZvezdica": 4,
+    "opis": "hotel sa velikim brojem sadrzaja za decu",
+    "destinacija": {
+      "_id": {
+        "$oid": "6499db2dee0a164bf481995a"
+      },
+      "mesto": "Budimpešta",
+      "drzava": "Madjarska",
+      "opis": "Grad mostova"
+    }
+  },
+  "turistickaAgencija": {
+    "_id": {
+      "$oid": "6484c88030d30c773b3cb419"
+    },
+    "naziv": "City Breaks",
+    "adresa": "Kralja Petra 56",
+    "kontakt": "+381 11 218 68 47"
+  },
+  "opis": "Ekskluzivni smeštaj u srcu grada",
+  "slika": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/312636367.jpg?k=101bc888158d7a0492e0f427e5a89bfad688db04856fcf6361d8bbe907172298&o=&hp=1"
+},
+{
+  "_id": {
+    "$oid": "649afaa64e7f261d523082a3"
+  },
+  "ukupnaCena": 31000,
+  "placeno": false,
+  "datumRealizacije": "2023-05-02",
+  "hotel": {
+    "_id": {
+      "$oid": "6499ed493367a6336600563f"
+    },
+    "naziv": "Hotel Paradise",
+    "brojZvezdica": 4,
+    "opis": "hotel sa velikim brojem sadrzaja za decu",
+    "destinacija": {
+      "_id": {
+        "$oid": "6499db2dee0a164bf481995a"
+      },
+      "mesto": "Budimpešta",
+      "drzava": "Madjarska",
+      "opis": "Grad mostova"
+    }
+  },
+  "turistickaAgencija": {
+    "_id": {
+      "$oid": "6484c88030d30c773b3cb417"
+    },
+    "naziv": "Fly&Go",
+    "adresa": "Resavska 31",
+    "kontakt": "+381 11 262 32 22"
+  },
+  "opis": "Porodični odmor u prostranom stanu sa pogledom na more",
+  "slika": "https://i.travelapi.com/lodging/4000000/3380000/3374500/3374468/ddd97df2_z.jpg?impolicy=resizecrop&rw=750&ra=fit"
+},
+{
+  "_id": {
+    "$oid": "649afaa64e7f261d523082a4"
+  },
+  "ukupnaCena": 28000,
+  "placeno": true,
+  "datumRealizacije": "2023-06-06",
+  "hotel": {
+    "_id": {
+      "$oid": "6499ed493367a6336600563a"
+    },
+    "naziv": "Hotel Plaza",
+    "brojZvezdica": 5,
+    "opis": "ekskluzivni hotel u centru grada",
+    "destinacija": {
+      "_id": {
+        "$oid": "6499db2dee0a164bf481995b"
+      },
+      "mesto": "Atina",
+      "drzava": "Grcka",
+      "opis": "Grad anticke civilizacije"
+    }
+  },
+  "turistickaAgencija": {
+    "_id": {
+      "$oid": "6484c88030d30c773b3cb419"
+    },
+    "naziv": "City Breaks",
+    "adresa": "Kralja Petra 56",
+    "kontakt": "+381 11 218 68 47"
+  },
+  "opis": "Smeštaj za grupu prijatelja u modernom apartmanu",
+  "slika": "https://res.klook.com/klook-hotel/image/upload/fl_lossy.progressive,c_fill,w_750,q_85/travelapi/78000000/77120000/77117000/77116915/e4371a7d_z.webp"
+},
+{
+  "_id": {
+    "$oid": "649afaa64e7f261d523082a5"
+  },
+  "ukupnaCena": 17000,
+  "placeno": false,
+  "datumRealizacije": "2023-07-13",
+  "hotel": {
+    "_id": {
+      "$oid": "6499ed493367a63366005639"
+    },
+    "naziv": "Hotel Sunny",
+    "brojZvezdica": 3,
+    "opis": "hotel sa bazenom i pogledom na more",
+    "destinacija": {
+      "_id": {
+        "$oid": "6499db2dee0a164bf4819959"
+      },
+      "mesto": "Sidnej",
+      "drzava": "Australija",
+      "opis": "Grad Operne kuce"
+    }
+  },
+  "turistickaAgencija": {
+    "_id": {
+      "$oid": "6484c88030d30c773b3cb415"
+    },
+    "naziv": "Travel Service",
+    "adresa": "Knez Danilova 24",
+    "kontakt": "+381 11 218 47 12"
+  },
+  "opis": "Romantični vikend u luksuznom apartmanu",
+  "slika": "https://res.klook.com/klook-hotel/image/upload/fl_lossy.progressive,c_fill,w_750,q_85/travelapi/19000000/18910000/18908700/18908636/3f9679e8_z.webp"
+},
+{
+  "_id": {
+    "$oid": "649afaa64e7f261d523082a6"
+  },
+  "ukupnaCena": "15000",
+  "placeno": true,
+  "datumRealizacije": {
+    "$date": "2023-08-10T20:00:00.000Z"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "6499ed493367a6336600563d"
+    },
+    "naziv": "Hotel Serenity",
+    "brojZvezdica": 3,
+    "opis": "hotel za odmor i relaksaciju",
+    "destinacija": {
+      "_id": {
+        "$oid": "6499db2dee0a164bf4819959"
+      },
+      "mesto": "Sidnej",
+      "drzava": "Australija",
+      "opis": "Grad Operne kuce"
+    }
+  },
+  "turistickaAgencija": {
+    "_id": {
+      "$oid": "6484c88030d30c773b3cb414"
+    },
+    "naziv": "Adria Tours",
+    "adresa": "Gospodar Jevremova 15",
+    "kontakt": "+381 11 263 81 22",
+    "slika": null
+  },
+  "opis": "Jednosoban studio za poslovne putnike",
+  "slika": "https://res.klook.com/klook-hotel/image/upload/fl_lossy.progressive,c_fill,w_750,q_85/travelapi/70000000/69570000/69565400/69565373/93a2d7b2_z.webp"
+},
+{
+  "_id": {
+    "$oid": "649afaa64e7f261d523082a7"
+  },
+  "ukupnaCena": 23000,
+  "placeno": true,
+  "datumRealizacije": "2023-04-15",
+  "hotel": {
+    "_id": {
+      "$oid": "6499ed493367a6336600563c"
+    },
+    "naziv": "Hotel Savoy",
+    "brojZvezdica": 5,
+    "opis": "hotel sa odlicnim pogledom na grad",
+    "destinacija": {
+      "_id": {
+        "$oid": "6499db2dee0a164bf4819957"
+      },
+      "mesto": "Tokio",
+      "drzava": "Japan",
+      "opis": "Grad moderne tehnologije"
+    }
+  },
+  "turistickaAgencija": {
+    "_id": {
+      "$oid": "6484c88030d30c773b3cb41a"
+    },
+    "naziv": "Bon Voyage",
+    "adresa": "Svetogorska 10",
+    "kontakt": "+381 11 344 19 11"
+  },
+  "opis": "Dvosoban studio za poslovne putnike",
+  "slika": "https://res.klook.com/klook-hotel/image/upload/fl_lossy.progressive,c_fill,w_750,q_85/travelapi/70000000/69560000/69553700/69553699/7d5e8785_z.webp"
+},
+{
+  "_id": {
+    "$oid": "649afaa64e7f261d523082a8"
+  },
+  "ukupnaCena": "25000",
+  "placeno": false,
+  "datumRealizacije": {
+    "$date": "2023-03-28T16:00:00.000Z"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "6499ed493367a63366005640"
+    },
+    "naziv": "Hotel Classic",
+    "brojZvezdica": 3,
+    "opis": "hotel sa tradicionalnim dekorom",
+    "destinacija": {
+      "_id": {
+        "$oid": "6499db2dee0a164bf481995e"
+      },
+      "mesto": "Dubrovnik",
+      "drzava": "Hrvatska",
+      "opis": "Grad zidina i mediteranske arhitekture"
+    }
+  },
+  "turistickaAgencija": {
+    "_id": {
+      "$oid": "6484c88030d30c773b3cb413"
+    },
+    "naziv": "GlobeTracker",
+    "adresa": "Bulevar Kralja Aleksandra 52",
+    "kontakt": "+381 11 344 25 01",
+    "slika": null
+  },
+  "opis": "Smeštaj sa bazenom u dvosobnom apartmanu",
+  "slika": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/386451537.jpg?k=b50e17d047485b5bea2013f598e41886163ea4daf9368665845c25c67f92e877&o=&hp=1"
+},
+{
+  "_id": {
+    "$oid": "649afaa64e7f261d523082a9"
+  },
+  "ukupnaCena": 14000,
+  "placeno": true,
+  "datumRealizacije": "2023-08-31",
+  "hotel": {
+    "_id": {
+      "$oid": "6499ed493367a6336600563b"
+    },
+    "naziv": "Grand Hotel",
+    "brojZvezdica": 4,
+    "opis": "luksuzan hotel sa spa centrom",
+    "destinacija": {
+      "_id": {
+        "$oid": "6499db2dee0a164bf4819958"
+      },
+      "mesto": "Rio de Zaneiro",
+      "drzava": "Brazil",
+      "opis": "Grad karnevala"
+    }
+  },
+  "turistickaAgencija": {
+    "_id": {
+      "$oid": "6484c88030d30c773b3cb411"
+    },
+    "naziv": "Travel Point",
+    "adresa": "Bulevar Mihaila Pupina 10a",
+    "kontakt": "+381 11 213 81 45"
+  },
+  "opis": "Jednosoban apartman u blizini glavnih atrakcija",
+  "slika": "https://res.klook.com/klook-hotel/image/upload/fl_lossy.progressive,c_fill,w_750,q_85/travelapi/23000000/22330000/22328200/22328115/73595146_z.webp"
+},
+{
+  "_id": {
+    "$oid": "649afaa64e7f261d523082aa"
+  },
+  "ukupnaCena": 29000,
+  "placeno": true,
+  "datumRealizacije": "2023-05-18",
+  "hotel": {
+    "_id": {
+      "$oid": "6499ed493367a63366005638"
+    },
+    "naziv": "Hotel Cezar",
+    "brojZvezdica": 4,
+    "opis": "elegantan i moderan hotel",
+    "destinacija": {
+      "_id": {
+        "$oid": "6499db2dee0a164bf4819956"
+      },
+      "mesto": "Njujork",
+      "drzava": "SAD",
+      "opis": "Grad koji nikad ne spava"
+    }
+  },
+  "turistickaAgencija": {
+    "_id": {
+      "$oid": "6484c88030d30c773b3cb416"
+    },
+    "naziv": "Globus Tours",
+    "adresa": "Bulevar Despota Stefana 107",
+    "kontakt": "+381 11 344 08 88"
+  },
+  "opis": "Penthaus sa terasom i pogledom na grad",
+  "slika": "https://res.klook.com/klook-hotel/image/upload/fl_lossy.progressive,c_fill,w_750,q_85/travelapi/45000000/44130000/44120600/44120572/c6fcaa15_z.webp"
+},
+{
+  "_id": {
+    "$oid": "649afaa64e7f261d523082ab"
+  },
+  "ukupnaCena": "21000",
+  "placeno": false,
+  "datumRealizacije": {
+    "$date": "2023-09-25T18:02:00.000Z"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "6499ed493367a63366005641"
+    },
+    "naziv": "Hotel Premier",
+    "brojZvezdica": 4,
+    "opis": "hotel sa modernim dizajnom",
+    "destinacija": {
+      "_id": {
+        "$oid": "6499db2dee0a164bf4819955"
+      },
+      "mesto": "Pariz",
+      "drzava": "Francuska",
+      "opis": "Grad svetlosti i ljubavi"
+    }
+  },
+  "turistickaAgencija": {
+    "_id": {
+      "$oid": "6484c88030d30c773b3cb418"
+    },
+    "naziv": "Exotic Travel",
+    "adresa": "Kraljice Marije 17",
+    "kontakt": "+381 11 323 44 55"
+  },
+  "opis": "Dvosoban apartman u ruralnom okruženju",
+  "slika": "https://www.istria-home.com/media/cache/object_gallery/bundles/web/images/photos/524/524_35_35.jpg"
+}]

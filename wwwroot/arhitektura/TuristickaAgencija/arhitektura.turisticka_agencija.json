@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "6484c88030d30c773b3cb411"
+  },
+  "naziv": "Travel Point",
+  "adresa": "Bulevar Mihaila Pupina 10a",
+  "kontakt": "+381 11 213 81 44",
+  "slika": "https://img.freepik.com/vector-premium/plantilla-diseno-logotipo-travel-point_145155-2904.jpg"
+},
+{
+  "_id": {
+    "$oid": "6484c88030d30c773b3cb412"
+  },
+  "naziv": "Putolovac",
+  "adresa": "Knez Mihailova 4",
+  "kontakt": "+381 11 263 54 88",
+  "slika": "https://putolovac.rs/wp-content/uploads/2021/01/logo-ptl.png"
+},
+{
+  "_id": {
+    "$oid": "6484c88030d30c773b3cb413"
+  },
+  "naziv": "GlobeTracker",
+  "adresa": "Bulevar Kralja Aleksandra 52",
+  "kontakt": "+381 11 344 25 01",
+  "slika": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS85OqdL01leue7dwuEkGuwit9DoXwDmDN-3A&usqp=CAU"
+},
+{
+  "_id": {
+    "$oid": "6484c88030d30c773b3cb414"
+  },
+  "naziv": "Adria Tours",
+  "adresa": "Gospodar Jevremova 15",
+  "kontakt": "+381 11 263 81 22",
+  "slika": "data:image/png;base64,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"
+},
+{
+  "_id": {
+    "$oid": "6484c88030d30c773b3cb415"
+  },
+  "naziv": "Travel Service",
+  "adresa": "Knez Danilova 24",
+  "kontakt": "+381 11 218 47 12",
+  "slika": "https://www.click2refund.com/Contents/GetAirlineLogo?id=322a03aa-c551-4daa-90b9-625ae4bf2b75"
+},
+{
+  "_id": {
+    "$oid": "6484c88030d30c773b3cb416"
+  },
+  "naziv": "Globus Tours",
+  "adresa": "Bulevar Despota Stefana 107",
+  "kontakt": "+381 11 344 08 88",
+  "slika": "https://content.jdmagicbox.com/comp/kozhikode/h1/0495px495.x495.170728143200.b1h1/catalogue/globus-travel-and-tours-nadakkavu-west-kozhikode-air-ticketing-agents-international-1tuordy.jpg"
+},
+{
+  "_id": {
+    "$oid": "6484c88030d30c773b3cb417"
+  },
+  "naziv": "Fly&Go",
+  "adresa": "Resavska 31",
+  "kontakt": "+381 11 262 32 22",
+  "slika": "https://s3-eu-west-1.amazonaws.com/tpd/logos/58a05beb0000ff00059c8b62/0x0.png"
+},
+{
+  "_id": {
+    "$oid": "6484c88030d30c773b3cb418"
+  },
+  "naziv": "Exotic Travel",
+  "adresa": "Kraljice Marije 17",
+  "kontakt": "+381 11 323 44 55",
+  "slika": "https://us.123rf.com/450wm/topvectors/topvectors1711/topvectors171100194/89695916-original-hand-drawn-exotic-logo-template-vector-illustration.jpg?ver=6"
+},
+{
+  "_id": {
+    "$oid": "6484c88030d30c773b3cb419"
+  },
+  "naziv": "City Breaks",
+  "adresa": "Kralja Petra 56",
+  "kontakt": "+381 11 218 68 47",
+  "slika": "https://media-s3-us-east-1.ceros.com/news-uk/images/2023/02/16/02960dd8ea9bc33cdde088dafe025e06/jet2citybreaks-logo-master-2022.png"
+},
+{
+  "_id": {
+    "$oid": "6484c88030d30c773b3cb41a"
+  },
+  "naziv": "Bon Voyage",
+  "adresa": "Svetogorska 10",
+  "kontakt": "+381 11 344 19 11",
+  "slika": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScVemLaiXfJCofh2pDcIV8upvuNBepgPPf-Bm-6W-lHZvqjOdBFM2A7xEILE8hC-LCWNM&usqp=CAU"
+}]
