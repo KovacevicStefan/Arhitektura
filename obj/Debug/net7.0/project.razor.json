@@ -18705,6 +18705,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\programi\\programiranje\\RPP_i_Arhitektura\\Arhitektura\\Views\\Home\\Register.cshtml",
+      "TargetPath": "Views\\Home\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\programi\\programiranje\\RPP_i_Arhitektura\\Arhitektura\\Views\\TuristickaAgencija\\Edit.cshtml",
       "TargetPath": "Views\\TuristickaAgencija\\Edit.cshtml",
       "FileKind": "mvc"
@@ -18712,6 +18717,11 @@
     {
       "FilePath": "d:\\programi\\programiranje\\RPP_i_Arhitektura\\Arhitektura\\Views\\Aranzman\\Delete.cshtml",
       "TargetPath": "Views\\Aranzman\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\programi\\programiranje\\RPP_i_Arhitektura\\Arhitektura\\Views\\Aranzman\\Reservation.cshtml",
+      "TargetPath": "Views\\Aranzman\\Reservation.cshtml",
       "FileKind": "mvc"
     },
     {

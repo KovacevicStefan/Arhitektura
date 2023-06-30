@@ -13,12 +13,8 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\programi\\programiranje\\RPP_i_Arhitektura\\Arhitektura\\wwwroot\\images\\fingerprint.png",
-      "PackagePath": "staticwebassets\\images\\fingerprint.png"
-    },
-    {
-      "Id": "D:\\programi\\programiranje\\RPP_i_Arhitektura\\Arhitektura\\wwwroot\\images\\guest.png",
-      "PackagePath": "staticwebassets\\images\\guest.png"
+      "Id": "D:\\programi\\programiranje\\RPP_i_Arhitektura\\Arhitektura\\wwwroot\\images\\notFound.png",
+      "PackagePath": "staticwebassets\\images\\notFound.png"
     },
     {
       "Id": "D:\\programi\\programiranje\\RPP_i_Arhitektura\\Arhitektura\\wwwroot\\images\\stars\\star.png",

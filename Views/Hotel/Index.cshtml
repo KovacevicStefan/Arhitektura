@@ -27,9 +27,11 @@
 <h2>Hoteli</h2>
 
 <div class="row">
-    <div class="col-md-4">
-        <a asp-controller="Hotel" asp-action="Create" class="btn btn-success">Dodaj hotel</a>
-    </div>
+    @if(Context.Session.GetString("Role") == "admin"){
+            <div class="col-md-4">
+                <a asp-controller="Hotel" asp-action="Create" class="btn btn-success">Dodaj hotel</a>
+            </div>
+    }
 </div>
 <br>
 <div class="row">
@@ -45,7 +47,7 @@
                         }
                         else
                         {
-                            <img src="putanja-do-default-slike.jpg" class="card-img-top" alt="Slika hotela">
+                            <img src="/images/notFound.png" class="card-img-top" alt="Slika hotela">
                         }
                     </div>
                     <div class="col-md-8">
@@ -65,8 +67,10 @@
                                 Opis: @hotel.Opis<br>
                                 Destinacija: @hotel.Destinacija.Mesto<br>
                             </p>
-                            <a asp-controller="Hotel" asp-action="Edit" asp-route-id="@hotel.Id" class="btn btn-success">Izmeni</a>
-                            <a asp-controller="Hotel" asp-action="Delete" asp-route-id="@hotel.Id" class="btn btn-secondary">Obriši</a>
+                            @if(Context.Session.GetString("Role") == "admin"){
+                                <a asp-controller="Hotel" asp-action="Edit" asp-route-id="@hotel.Id" class="btn btn-success">Izmeni</a>
+                                <a asp-controller="Hotel" asp-action="Delete" asp-route-id="@hotel.Id" class="btn btn-secondary">Obriši</a>
+                            }
                         </div>
                     </div>
                 </div>

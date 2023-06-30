@@ -21,6 +21,7 @@ namespace Arhitektura.Controllers
         public IActionResult Index()
         {
             List<Aranzman> Aranzmani = _aranzmanRepository.GetAll();
+            ViewBag.Role = HttpContext.Session.GetString("Role");
             return View(Aranzmani);
         }
 
@@ -92,6 +93,37 @@ namespace Arhitektura.Controllers
         public IActionResult DeleteConfirmed(string id)
         {
             _aranzmanRepository.Delete(id);
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult Reservation(string id)
+        {
+            var aranzman = _aranzmanRepository.GetById(id);
+            if (aranzman == null)
+            {
+                return NotFound();
+            }
+            return View(aranzman);
+        }
+
+        [HttpPost]
+        public IActionResult ConfirmReservation(string id)
+        {
+            var aranzman = _aranzmanRepository.GetById(id);
+
+            if (aranzman == null)
+            {
+                return NotFound();
+            }
+
+            aranzman.Placeno = true;
+
+            if (ModelState.IsValid)
+            {
+                _aranzmanRepository.Update(id, aranzman);
+            }
+
             return RedirectToAction("Index");
         }
     }

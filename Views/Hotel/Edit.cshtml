@@ -23,6 +23,11 @@
         @Html.DropDownListFor(model => model.Destinacija.Id, new SelectList(ViewBag.Destinacije, "Id", "Mesto"), "-- Izaberite destinaciju --", new { @class = "form-control" })
         <span asp-validation-for="Destinacija" class="text-danger"></span>
     </div>
+    <div class="form-group">
+        <label asp-for="Slika">Slika:</label>
+        <input asp-for="Slika" class="form-control" />
+        <span asp-validation-for="Slika" class="text-danger"></span>
+    </div>
     <input type="hidden" asp-for="Destinacija.Mesto" id="Destinacija_Mesto" />
     <input type="hidden" asp-for="Destinacija.Drzava" id="Destinacija_Drzava" />
     <input type="hidden" asp-for="Destinacija.Opis" id="Destinacija_Opis" />

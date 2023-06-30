@@ -23,7 +23,7 @@ namespace Arhitektura.Models
         public Destinacija Destinacija { get; set; }
 
         [BsonElement("slika")]
-        public string Slika { get; set; }
+        public string? Slika { get; set; }
 
         [BsonIgnore]
         public List<Aranzman>? Aranzmani { get; set; }

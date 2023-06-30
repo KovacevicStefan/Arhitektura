@@ -21,9 +21,11 @@
 <h2>Turističke agencije</h2>
 
 <div class="row">
-    <div class="col-md-4">
-        <a asp-controller="TuristickaAgencija" asp-action="Create" class="btn btn-success">Dodaj turističku agenciju</a>
-    </div>
+    @if(Context.Session.GetString("Role") == "admin"){
+            <div class="col-md-4">
+                <a asp-controller="TuristickaAgencija" asp-action="Create" class="btn btn-success">Dodaj turističku agenciju</a>
+            </div>
+    }
 </div>
 <br>
 <div class="row">
@@ -39,7 +41,7 @@
                         }
                         else
                         {
-                            <img src="putanja-do-default-slike.jpg" class="card-img-top" alt="Slika agencije">
+                            <img src="/images/notFound.png" class="card-img-top" alt="Slika agencije">
                         }
                     </div>
                     <div class="col-md-8">
@@ -49,8 +51,10 @@
                                 Adresa: @agencija.Adresa<br>
                                 Kontakt: @agencija.Kontakt<br>
                             </p>
-                            <a asp-controller="TuristickaAgencija" asp-action="Edit" asp-route-id="@agencija.Id" class="btn btn-success">Izmeni</a>
-                            <a asp-controller="TuristickaAgencija" asp-action="Delete" asp-route-id="@agencija.Id" class="btn btn-secondary">Obriši</a>
+                            @if(Context.Session.GetString("Role") == "admin"){
+                                <a asp-controller="TuristickaAgencija" asp-action="Edit" asp-route-id="@agencija.Id" class="btn btn-success">Izmeni</a>
+                                <a asp-controller="TuristickaAgencija" asp-action="Delete" asp-route-id="@agencija.Id" class="btn btn-secondary">Obriši</a>
+                            }
                         </div>
                     </div>
                 </div>

@@ -17,6 +17,7 @@ namespace Arhitektura.Controllers
         public IActionResult Index()
         {
             List<TuristickaAgencija> turistickeAgencije = _turistickaAgencijaRepository.GetAll();
+            ViewBag.Role = HttpContext.Session.GetString("Role");
             return View(turistickeAgencije);
         }
 

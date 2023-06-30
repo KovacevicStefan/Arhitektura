@@ -1,5 +1,6 @@
 using Arhitektura.IRepositories;
 using Arhitektura.Repositories;
+using Arhitektura.Roles;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -20,12 +21,14 @@ namespace Arhitektura
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddSession();
 
             // Registracija repozitorijuma kao servisa
             services.AddScoped<IDestinacijaRepository, DestinacijaRepository>();
             services.AddScoped<ITuristickaAgencijaRepository, TuristickaAgencijaRepository>();
             services.AddScoped<IHotelRepository, HotelRepository>();
             services.AddScoped<IAranzmanRepository, AranzmanRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
             
         }
 
@@ -43,8 +46,18 @@ namespace Arhitektura
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
+            app.UseSession();
+
+            app.Use(async (context, next) =>
+            {
+                if (string.IsNullOrEmpty(context.Session.GetString("Role")))
+                {
+                    context.Session.SetString("Role", "guest");
+                }
+
+                await next.Invoke();
+            });
 
             app.UseEndpoints(endpoints =>
             {

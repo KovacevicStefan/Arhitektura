@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u12RhCMyF4mbJE7wGjw6NpvUXsLh3FpnZZCAWLGtSao=",
+  "Hash": "cpb92HcyOS0CFCwM+Q8+hFDYyh1a9kk7k4i7XjzNpF0=",
   "Source": "Arhitektura",
   "BasePath": "_content/Arhitektura",
   "Mode": "Default",
@@ -85,12 +85,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\programi\\programiranje\\RPP_i_Arhitektura\\Arhitektura\\wwwroot\\images\\fingerprint.png",
+      "Identity": "D:\\programi\\programiranje\\RPP_i_Arhitektura\\Arhitektura\\wwwroot\\images\\notFound.png",
       "SourceId": "Arhitektura",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\programi\\programiranje\\RPP_i_Arhitektura\\Arhitektura\\wwwroot\\",
       "BasePath": "_content/Arhitektura",
-      "RelativePath": "images/fingerprint.png",
+      "RelativePath": "images/notFound.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,24 +99,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\fingerprint.png"
-    },
-    {
-      "Identity": "D:\\programi\\programiranje\\RPP_i_Arhitektura\\Arhitektura\\wwwroot\\images\\guest.png",
-      "SourceId": "Arhitektura",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\programi\\programiranje\\RPP_i_Arhitektura\\Arhitektura\\wwwroot\\",
-      "BasePath": "_content/Arhitektura",
-      "RelativePath": "images/guest.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\guest.png"
+      "OriginalItemSpec": "wwwroot\\images\\notFound.png"
     },
     {
       "Identity": "D:\\programi\\programiranje\\RPP_i_Arhitektura\\Arhitektura\\wwwroot\\images\\stars\\star.png",

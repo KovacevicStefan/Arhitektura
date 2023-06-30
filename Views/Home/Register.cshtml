@@ -1,4 +1,4 @@
-﻿@{
+@{
     ViewData["Title"] = "Login Page";
 }
 
@@ -20,8 +20,8 @@
     }
 
     .login-form {
-        margin-top: 100px;
-        margin-left: 100px;
+        margin-top: 50px;
+        margin-left: 700px;
         flex: 1;
         margin-right: 40px;
         max-width: 400px;
@@ -90,28 +90,16 @@
 </style>
 
 <div class="container">
-        @if(Context.Session.GetString("Role") == "guest")
-        {
-        <div class="login-form">
-            <h1>Prijava</h1>
-
-            <form asp-controller="Home" asp-action="Index" method="post">
-                <input type="text" placeholder="Korisničko ime" asp-for="Username" />
-                <input type="password" placeholder="Lozinka" asp-for="Password" />
-                <div asp-validation-summary="All" class="text-danger"></div>
-                <button type="submit">Prijavi se</button>
-            </form>
-            <a href="@Url.Action("Register", "Home")" class="signup-link">Registruj se</a>
-        </div>
-        <div class="welcome-text">
-                <h1 style="text-align: center;">Dobrodošli</h1>
-                <p style="text-align: center;">Sistem turističke agencije omogućava korisnicima da pregledaju, rezervišu i kupe turističke aranžmane. Korisnici mogu biti posetioci aplikacije, ulogovani korisnici i administratori.</p>
-            </div>
-        }else
-        {
-            <div class="welcome-text" style="margin-top: 100px;margin-left: 600px;">
-                <h1 style="text-align: center;">Dobrodošli</h1>
-                <p style="text-align: center;">Sistem turističke agencije omogućava korisnicima da pregledaju, rezervišu i kupe turističke aranžmane. Korisnici mogu biti posetioci aplikacije, ulogovani korisnici i administratori.</p>
-            </div>
-        }
+    <div class="login-form">
+        <h1>Registracija</h1>
+        
+        <form asp-controller="Home" asp-action="Register" method="post">
+            <input type="text" placeholder="Ime" asp-for="Ime" required/>
+            <input type="text" placeholder="Prezime" asp-for="Prezime" required/>
+            <input type="text" placeholder="Korisničko ime" asp-for="Username" required/>
+            <input type="password" placeholder="Lozinka" asp-for="Password" required/>
+            <button type="submit">Registruj se</button>
+            <div asp-validation-summary="All" class="text-danger"></div>
+        </form>
+    </div>
 </div>

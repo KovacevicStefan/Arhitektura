@@ -4,7 +4,12 @@
 
 <form id="editForm" asp-controller="Aranzman" asp-action="Edit" asp-route-id="@Model.Id" method="post">
     <div class="form-group">
-        <label asp-for="UkupnaCena">Ukupna cena</label>
+        <label asp-for="Opis">Opis:</label>
+        <input asp-for="Opis" class="form-control"/>
+        <span asp-validation-for="Opis" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="UkupnaCena">Ukupna cena:</label>
         <input asp-for="UkupnaCena" class="form-control"/>
         <span asp-validation-for="UkupnaCena" class="text-danger"></span>
     </div>
@@ -30,6 +35,11 @@
         <label asp-for="TuristickaAgencija">Turistička agencija:</label>
         @Html.DropDownListFor(model => model.TuristickaAgencija.Id, new SelectList(ViewBag.TuristickeAgencije, "Id", "Naziv"), "-- Izaberite turisticku agenciju --", new { @class = "form-control" })
         <span asp-validation-for="TuristickaAgencija" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Slika">Slika:</label>
+        <input asp-for="Slika" class="form-control" />
+        <span asp-validation-for="Slika" class="text-danger"></span>
     </div>
     <input type="hidden" asp-for="Hotel.Naziv" id="Hotel_Naziv" />
     <input type="hidden" asp-for="Hotel.BrojZvezdica" id="Hotel_BrojZvezdica" />

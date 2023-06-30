@@ -9,6 +9,12 @@
     <hr/>
     <dl class="row">
         <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Opis)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Opis)
+        </dd>
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.UkupnaCena)
         </dt>
         <dd class="col-sm-10">
@@ -27,13 +33,13 @@
             @Html.DisplayFor(model => model.DatumRealizacije)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Hotel.Naziv)
+            @Html.DisplayNameFor(model => model.Hotel)
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Hotel.Naziv)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.TuristickaAgencija.Naziv)
+            @Html.DisplayNameFor(model => model.TuristickaAgencija)
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.TuristickaAgencija.Naziv)

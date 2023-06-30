@@ -20,6 +20,6 @@ namespace Arhitektura.Models
         public string Opis { get; set; }
 
         [BsonElement("slika")]
-        public string Slika { get; set; }
+        public string? Slika { get; set; }
     }
 }
